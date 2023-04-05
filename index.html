@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  
+    <title>Login Form</title>
+</head>
+<body>
+
+<div class="container">
+        <form class="login_form" action="valid.html" method="post" name="form" onsubmit="return validated()">
+        <h1>Login</h1>
+        <div class="form-login">
+        <label for="">Username</label>
+        <input id="username" type="text" class="control" placeholder="Enter Username" required>
+        <br>
+        <label>Password</label>
+        <input id="password" type="password" class="control" placeholder="Enter Password" required>
+        <input type="submit" class="btn" value="LOGIN"/>
+    </form>
+</div>
+</div>
+<script>
+    var username = document.forms['form']['username'];
+    var password = document.forms['form']['password'];
+    </script>
+
+</body>
+</html>

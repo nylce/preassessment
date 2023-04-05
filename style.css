@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Inconsolata&family=Montserrat:wght@600&family=Nunito&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: #eee;
+    display: flex;
+    font-family: Open Sans, sans-serif;
+    
+}
+.container{
+    margin: auto;
+    width: 500px;
+    max-width: 90%;
+}
+.container form{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 0 16px rgba(0,0,0.3);
+}
+h1{
+    text-align: center;
+    margin-bottom: 24px;
+    color: black;
+    font-family: Anuphan;
+
+}
+ form .control{
+    width: 100%;
+    height: 40px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid silver;
+    margin: 10px 0 18px 0;
+    padding: 0 10px;
+}
+form .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #fcf3f3;
+    background: #000000;
+    border-radius: 4px ;
+    margin-left: 40%;
+}
+form .btn:hover{
+    opacity: .6;
+}
